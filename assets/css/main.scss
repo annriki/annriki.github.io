@@ -107,3 +107,10 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* Personal homepage: Chinese typography and quiet green accents. */
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+.page__content { line-height: 1.9; }
+.page__content h1 { color: #356354; }
+.site-credit { margin-top: 5rem; padding-top: 1rem; border-top: 1px solid #edf0ef; font-size: .75em; color: #767676; }
+.author__urls a { overflow-wrap: anywhere; }
+.page__content h1 { scroll-margin-top: 5rem; }
